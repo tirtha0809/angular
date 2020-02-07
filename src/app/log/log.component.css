@@ -1,0 +1,44 @@
+.full-width {
+  width: 55%;
+  
+}
+
+.shipping-card {
+  min-width: 10px;
+  /* margin: 20px auto; */
+}
+
+.mat-radio-button {
+  display: block;
+  margin: 5px 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  color: black;
+}
+
+.col {
+  flex: 1;
+  margin-right: 2px;
+  color: black;
+}
+
+.col:last-child {
+  margin-right: 10px;
+}
+.shipping-card mat-card-actions button{
+  background-color: darkblue;
+}
+.mat-card{
+  position: center;
+  background-color: rgb(233, 204, 188);
+  color: black;
+  width: 250px;
+  height: 350px;
+
+}
+.form{
+  margin: auto;
+}
